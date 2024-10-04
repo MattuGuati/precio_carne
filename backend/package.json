@@ -1,0 +1,16 @@
+{
+    "name": "precios_carne",
+    "version": "1.0.0",
+    "description": "Aplicación para mostrar precios de una carnicería en tiempo real",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Matteo Peirano",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.0",
+        "pg": "^8.13.0"
+    }
+}
